@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        block styles
+        style 
+            include ../static/base.css
+
+    body    
+    div.black
+    div#bodyContainer
+        nav#navbar 
+            a(href="") 
+                img(src="logo.png", alt="")
+            span.WebsiteName.navhide GetFilms.com
+            ul.hidden 
+                li #[a(href="") Home]
+                li #[a(href="") Bollywood]
+                li #[a(href="") Hollywood]
+                li #[a(href="") Contact Us]
+            a(href="").navhide
+                img(src="navigation.png", alt="").ham
+
+        hr
+
+        block content
